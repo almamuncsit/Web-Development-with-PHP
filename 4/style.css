@@ -1,0 +1,96 @@
+
+/* Start coding for Menu */
+
+.menu {
+	background: #000;
+}
+
+.menu ul{}
+
+.menu ul li {
+	list-style-type: none;
+    display: inline-table;
+}
+
+.menu ul li a {
+	text-decoration: none;
+    color: #fff;
+    padding: 10px;
+    display: block;
+    border-right: 1px solid #fff;
+}
+
+.menu ul li a:hover {
+	background-color: #f00;
+}
+
+
+
+
+
+.headline {
+	color: red;
+}
+
+#bg {
+	background-color: silver;
+	font-weight: bold;
+}
+
+.left {
+	width: 400px;
+	background-color: #f1f1f1;
+	float: left;
+}
+.left:hover {
+	background-color: #00f;
+}
+.right {
+	width: 500px;
+	background-color: #0f0;
+	float: left;
+	text-align: left;
+	padding: 15px;
+}
+.image {
+	opacity: .5;
+	float: left;
+    margin-right: 9px;
+}
+
+
+.content {
+	width: 1000px;
+	background-color: #0f0;
+	margin: 0 auto;
+}
+
+.content-left {
+	width: 230px;
+	background-color: #ccc;
+	float: left;
+	padding: 10px;
+}
+
+.content-center {
+	width: 480px;
+	background-color: #f00;
+	float: left;
+	padding: 10px;
+}
+
+.content-right {
+	width: 230px;
+	background-color: #0f0;
+	float: left;
+	padding: 10px;
+}
+
+.btn {
+	background-color: #085408;
+    color: #fff;
+    padding: 15px;
+    margin: 20px;
+    border-radius: 26px 0px; 
+    box-shadow: 4px 4px 22px #000;
+}
